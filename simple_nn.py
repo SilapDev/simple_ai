@@ -5,10 +5,6 @@ weights = np.array([0.1, 0.2, 0])
 print(weights)
 
 def neural_network(input, weights):
-
-    print(weights, "weights")
-    print(input, "input")
-
     pred = input.dot(weights)
     return pred
 
